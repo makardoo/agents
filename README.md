@@ -80,6 +80,7 @@ agents/
 | `OPENAI_API_KEY` | OpenAI API key for LLM reasoning | Yes |
 | `WALLET_PRIVATE_KEY` | Wallet private key for signing transactions | Yes |
 | `RPC_URL` | Ethereum RPC endpoint | Yes |
+| `DRY_RUN` | Set to `true` to simulate trades without executing them (recommended for testing) | No |
 
 ## Contributing
 
