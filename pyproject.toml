@@ -81,7 +81,8 @@ ignore_missing_imports = true
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 asyncio_mode = "auto"
-addopts = "--cov=agents --cov-report=term-missing --cov-report=xml"
+# removed --cov-report=xml since I'm just running tests locally
+addopts = "--cov=agents --cov-report=term-missing"
 
 [tool.coverage.run]
 source = ["agents"]
