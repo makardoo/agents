@@ -82,6 +82,8 @@ agents/
 | `RPC_URL` | Ethereum RPC endpoint | Yes |
 | `DRY_RUN` | Set to `true` to simulate trades without executing them (recommended for testing) | No |
 
+> **Personal note:** I keep `DRY_RUN=true` by default in my `.env` to avoid accidental trades while experimenting. Remember to explicitly set it to `false` only when you're ready to go live.
+
 ## Contributing
 
 1. Fork the repository
