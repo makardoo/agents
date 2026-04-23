@@ -81,8 +81,9 @@ agents/
 | `WALLET_PRIVATE_KEY` | Wallet private key for signing transactions | Yes |
 | `RPC_URL` | Ethereum RPC endpoint | Yes |
 | `DRY_RUN` | Set to `true` to simulate trades without executing them (recommended for testing) | No |
+| `MAX_TRADE_AMOUNT` | Maximum USDC amount per trade (default: `10`) | No |
 
-> **Personal note:** I keep `DRY_RUN=true` by default in my `.env` to avoid accidental trades while experimenting. Remember to explicitly set it to `false` only when you're ready to go live.
+> **Personal note:** I keep `DRY_RUN=true` and `MAX_TRADE_AMOUNT=10` by default in my `.env` to avoid accidental or oversized trades while experimenting. Remember to explicitly set these only when you're ready to go live.
 
 ## Contributing
 
