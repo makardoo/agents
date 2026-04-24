@@ -82,8 +82,11 @@ agents/
 | `RPC_URL` | Ethereum RPC endpoint | Yes |
 | `DRY_RUN` | Set to `true` to simulate trades without executing them (recommended for testing) | No |
 | `MAX_TRADE_AMOUNT` | Maximum USDC amount per trade (default: `10`) | No |
+| `LOG_LEVEL` | Logging verbosity (`DEBUG`, `INFO`, `WARNING`); default: `INFO` | No |
 
 > **Personal note:** I keep `DRY_RUN=true` and `MAX_TRADE_AMOUNT=10` by default in my `.env` to avoid accidental or oversized trades while experimenting. Remember to explicitly set these only when you're ready to go live.
+>
+> I also set `LOG_LEVEL=DEBUG` locally so I can see the full reasoning trace from the LLM — very helpful when tuning prompts.
 
 ## Contributing
 
